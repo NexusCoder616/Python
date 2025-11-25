@@ -1,4 +1,3 @@
-
 def generate_hamming_code(data_bits):
     data = data_bits[::-1]  # Reverse (LSB first)
     r = 0
@@ -37,3 +36,4 @@ for _ in range(n):
 # Generate Hamming code
 h = generate_hamming_code(data_bits)
 print("\nGenerated Hamming Codeword:", ''.join(h[::-1]))
+
